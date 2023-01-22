@@ -1,0 +1,22 @@
+[
+    {
+        "id": "c90e591023d6663e",
+        "type": "function",
+        "z": "fe611c565d506ecf",
+        "name": "check light state",
+        "func": "if(msg.payload === \"on\"){\n    msg.payload = 1;\n    return msg;\n}else if(msg.payload === \"off\"){\n    msg.payload = 0;\n    return msg;\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "37d440afac37217b",
+                "3312fded61f6d65c"
+            ]
+        ]
+    }
+]
