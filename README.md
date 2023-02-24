@@ -16,7 +16,6 @@ You can control your IoT device from everywhere. And also sending bidirectional 
  ####
  I also prepared a simple frontend (reactjs). With using this website, you can connect to the socket server and send command or view the data which are coming from esp32.
 
-Video: [https://www.youtube.com/watch?v=s4T_D970Yvs](https://www.youtube.com/watch?v=s4T_D970Yvs)
 
 Keywords:
 esp32 socket client
