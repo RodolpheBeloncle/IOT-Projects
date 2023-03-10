@@ -1,12 +1,5 @@
 # iot-project
-Spring Boot - ReactJS - Esp32 Socket IOT Project
 
-Here is my IoT project using Spring Boot Stomp Socket - ReactJs - esp32 (and Arduino).
-You can control your IoT device from everywhere. And also sending bidirectional real-time data is possible. Just you have to connect to wifi, then it will automatically connect to our spring boot web socket.
-
-### Technical Details
-
- I wrote a web socket using java spring boot (it depends to you - you can write with js or python).
  ####
  It is connecting to this websocket using one of the esp32's socket libraries.
  ####
