@@ -48,6 +48,14 @@ service mosquitto stop
 service mosquitto start
 service mosquitto restart
 
+Check all connection
+mosquitto -v
+
+Subscribe to all topics
+
+mosquitto_sub -h localhost -t topic/# -p 1883
+
+
 Configuration
 To configure Mosquitto put *.conf files into the /etc/mosquitto/conf.d/ directory. Any files placed in this directory that have a .conf ending will be loaded as config files by the broker. My broker was missing the default config template after installation ~ so I added it here at the end of the article:
 
